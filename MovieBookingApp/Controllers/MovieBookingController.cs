@@ -9,7 +9,7 @@ using System.Net.Sockets;
 namespace MovieBookingApp.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+     [ApiController]
     [Authorize]
     public class MovieBookingController : ControllerBase
     {
